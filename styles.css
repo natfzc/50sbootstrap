@@ -1,0 +1,120 @@
+/* Estilos personalizados */
+body {
+    padding-top: 0px; /* Ajuste para el navbar fijo en la parte superior */
+    font-family: cursive;
+    font-size: 1.3rem;
+  }
+  
+/* Estilos personalizados para el jumbotron */
+.jumbotron-custom {
+    background-color: transparent; /* Fondo transparente */
+    padding: 2rem; /* Añadir espacio interior */
+    border-radius: 0; /* Quitar el borde redondeado */
+    box-shadow: none; /* Quitar sombra */
+    margin-bottom: 0; /* Quitar margen inferior */
+  }
+  
+  
+
+  h2 {
+    font-family: cursive;
+  }
+
+  form {
+    font-family: cursive;
+  }
+
+  footer {
+    color: #fff;
+  }
+
+  /* Estilos personalizados para la navbar */
+.navbar-custom {
+    background-color: #ff3560 !important; /* !important aumenta la especificidad */
+    color: #91b8ff; /* Cambia el color del texto */
+  }
+  
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link {
+    color: #322f2f; /* Cambia el color del texto y enlaces de la navbar */
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #1000f0; /* Cambia el color del texto y enlaces cuando se pasa el cursor por encima */
+  }
+  
+  /* Cambiar el color del texto de los enlaces */
+  .navbar-custom .nav-link {
+    color: #960808; /* Cambia el color del texto de los enlaces */
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #8d8d8d; /* Cambia el color del texto de los enlaces al pasar el cursor */
+  }
+  
+  
+
+  .card-img-top {
+    transition: transform 0.2s;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilos para efecto parallax */
+  .parallax {
+    background-image: url(./imagenes/fondo\ parrallax.jpeg); /* Reemplazar con la URL de tu imagen */
+    min-height: 400px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+ .container mt-4{
+    padding: 40px;
+    margin: 100px;
+ }
+.btn-enviar {
+    background-color: #d5b4a1; /* Cambia el color de fondo del botón a verde */
+    border-color: #d5b4a1; /* Cambia el color del borde del botón a verde */
+  }
+  
+  .btn-enviar:hover {
+    background-color: #ff0055; /* Cambia el color de fondo del botón al pasar el cursor por encima */
+    border-color: #ac4344; /* Cambia el color del borde del botón al pasar el cursor por encima */
+    color: #ffffff; /* Cambia el color del texto del botón al pasar el cursor por encima */
+  }
+
+  .btn-custom {
+    background-color: #dd2f2f; /* Cambia el color de fondo del botón a amarillo */
+    border-color: #dd2f2f; /* Cambia el color del borde del botón a amarillo */
+    color: #4e0101; /* Cambia el color del texto del botón a oscuro */
+  }
+  
+  .btn-custom:hover {
+    background-color: #660000; /* Cambia el color de fondo del botón al pasar el cursor por encima */
+    border-color: #ff2828; /* Cambia el color del borde del botón al pasar el cursor por encima */
+    color: #360505; /* Mantiene el color del texto del botón al pasar el cursor por encima */
+  }
+
+  /* Estilo personalizado para el footer */
+.bg-custom {
+    background-color: #ff006a; /* Cambia el color de fondo del footer a gris oscuro */
+  }
+  
+  /* Estilos para la animación del auto */
+.car-animation {
+  position: relative; /* Asegura que la posición sea relativa para la animación */
+  animation: moveCar 5s infinite alternate; /* Nombre de la animación, duración, repetición y tipo */
+}
+
+@keyframes moveCar {
+  0% {
+    left: 0; /* Posición inicial a la izquierda */
+  }
+  100% {
+    left: calc(100vw - 100px); /* Posición final a la derecha */
+  }
+}
